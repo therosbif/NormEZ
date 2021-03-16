@@ -163,7 +163,7 @@ You want to add awesome features to NormEZ? Here's how:
 
 ### Contributors
 
-[Here](https://github.com/ronanboiteau/NormEZ/graphs/contributors) is the list of NormEZ's contributors. Thanks to everyone who helped developing this project!
+[Here](https://github.com/therosbif/NormEZ/graphs/contributors) is the list of NormEZ's contributors. Thanks to everyone who helped developing this project!
 
 <!-- Links -->
 [Epitech C coding-style]: /epitech_c_coding_style.pdf
