@@ -10,7 +10,6 @@ Coding-style checker for Epitech students. This program analyzes your C and Hask
   * [Requirements](#requirements)
   * [How to use NormEZ?](#how-to-use-normez)
     * [Manual installation](#manual-installation)
-    * [Arch Linux](#arch-linux)
 * __[Options](#options)__
 * __[Features](#features)__
 * __[To-do](#to-do)__
@@ -41,26 +40,14 @@ sudo dnf install ruby
  1. Clone the repository:
 ```
 git clone https://github.com/ronanboiteau/NormEZ
+cd NormEZ
 ```
- 2. Copy the `NormEZ.rb` executable in your project repository.
+ 2. Run ```make install``` to install NormEZ or ```make uninstall``` to uninstall it
  3. Run NormEZ:
-```
-ruby NormEZ.rb
-```
- 4. NormEZ will recursively search for `.c`, `.h`, and `.hs` files to analyze in your current directory.
-
-#### Arch Linux
-
-[AUR package](https://aur.archlinux.org/packages/normez/) maintained by [Florian Glorioz](https://github.com/Hapique).
-
- 1. Install NormEZ:
-```
-yaourt -S normez
-```
- 2. Run NormEZ with the following command:
 ```
 normez
 ```
+ 4. NormEZ will recursively search for `.c`, `.h`, and `.hs` files to analyze in your current directory.
 
 ## Options
 
@@ -144,7 +131,7 @@ Here are the [Epitech coding-style] violations ***NOT YET*** checked by NormEZ.
 
 ### Haskell
 
-<img alt="Major infraction" src="/artwork/direction_arrow_red_up.png" width="12" height="12"/> Naming idetifiers according to the [lowerCamelCase](https://en.wikipedia.org/wiki/Camel_case) convention.<br/>
+<img alt="Major infraction" src="/artwork/direction_arrow_red_up.png" width="12" height="12"/> Naming identifiers according to the [lowerCamelCase](https://en.wikipedia.org/wiki/Camel_case) convention.<br/>
 <img alt="Major infraction" src="/artwork/direction_arrow_red_up.png" width="12" height="12"/> Forbidden language extentions.<br/>
 <img alt="Major infraction" src="/artwork/direction_arrow_red_up.png" width="12" height="12"/> Contents of delivery folder<br/>
 
