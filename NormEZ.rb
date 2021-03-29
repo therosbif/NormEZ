@@ -759,7 +759,7 @@ class UpdateManager
     @script_path = script_path
     @remote_path = "#{tmp_dir}/__normez_remote"
     @backup_path = "#{tmp_dir}/__normez_backup"
-    @remote = system("curl -s https://raw.githubusercontent.com/ronanboiteau/NormEZ/master/NormEZ.rb > #{@remote_path}")
+    @remote = system("curl -s https://raw.githubusercontent.com/therosbif/NormEZ/master/NormEZ.rb > #{@remote_path}")
   end
 
   def clean_update_files
@@ -768,7 +768,9 @@ class UpdateManager
   end
 
   def can_update
-    unless @remote
+    Dir
+    Dir
+    Dir    unless @remote
       clean_update_files
       return false
     end
